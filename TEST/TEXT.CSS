@@ -1,0 +1,16 @@
+
+.class1 {
+    color: #f00;
+    background-color: #2fadac;
+}
+
+.class2 {
+    color: #00f;
+    background-color: #c33;
+}
+.transition{
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+}

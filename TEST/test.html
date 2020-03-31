@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <div id="div" class="class1">click here</div>
+    <div id="div" class="class2">click here</div>
+    <div id="div" class="class3">click here</div>
+    <script>
+        function classToggle() {
+            this.classList.toggle('class1');
+            this.classList.toggle('class2');
+            style.cssText = "-webkit-transition: all 0.5s ease-in-out;";
+        }
+        document.querySelector('#div').addEventListener('click', classToggle);
+    </script>
+</body>
+
+</html>
